@@ -1,0 +1,165 @@
+body {
+    padding: 20px;
+    background-color: rgb(165, 219, 201);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    max-width: 470px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 1);
+}
+
+.container h1 {
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.todo-form {
+    margin: 20px 0;
+    width: 100%;
+    height: 50px;
+}
+
+.todo-form input {
+    width: 83%;
+    height: 40px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.todo-form input:focus {
+    border-color: #7702ca;
+}
+
+.addButton {
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 6px;
+    font-size: 21px;
+    background: #7702ca;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.addButton:hover {
+    background: #3c0068;
+}
+
+.addButton:active {
+    opacity: 1;
+}
+
+.container .todo-form {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -45px;
+    top: 5px
+}
+
+.todoList {
+    padding: 0;
+}
+
+.text_list {
+    font-size: 20px;
+}
+
+.todoList li {
+    position: relative;
+    left: 40px;
+    width: 74%;
+    list-style: none;
+    margin-bottom: 10px;
+    background: #e1e1e1;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.todoList li:hover {
+    background: #d3d3d3;
+}
+
+.todoList li.checked {
+    text-decoration: line-through;
+    background: rgb(124, 124, 124);
+    color: #fff;
+}
+
+.container .footer {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasks {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.Button {
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 5px;
+    background: #7702ca;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.Button:hover {
+    background: #3c0068;
+}
+
+.Button:active {
+    opacity: 1;
+}
+
+.deleteButton {
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background: #ff0000;
+    cursor: pointer;
+
+    position: absolute;
+    left: 400px;
+    top: 5px;
+}
+
+.deleteButton:hover {
+    background: #c71b1b;
+}
+
+.deleteButton:active {
+    background: #960000;
+}
